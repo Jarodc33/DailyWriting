@@ -7,8 +7,6 @@ K-Nearest Neighbors is a machine learning method that uses distances from points
     k_nearest = self._get_k_nearest(distances, k)
     prediction = self._get_predicted_value(k_nearest)
     predictions[i] = prediction
-            
-  return predictions
 ```
 
 This code snipet shows that for each test point we need to find the distance of all the points in the training data then we need to find the k closest. This takes an exponential amount of time as the amount of data increases.
