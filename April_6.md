@@ -13,4 +13,4 @@ Fastpages is an easy way to deploy your data science project as a blog post. Fas
 - metadata_key1: metadata_value1
 - metadata_key2: metadata_value2
 ```
-Once all your settings are make you can code away!
+The blog post then can look like a cleaner version of your notebook hosted on Github pages for other people to see and interact with!
